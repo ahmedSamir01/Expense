@@ -1,11 +1,15 @@
 function UpdatedComponent(OriginalComponent) {
   function newComponent() {
     /*
+      const num = 60
+      num.toFixed(2) >> return 60.00
+      num.toFixed(2).split(".") >> 60,00   every . split
+      p[0] >> 60
+      p[1] >> 00
 
-const num = 6
-num.toFixed(2) >> return 600
-
-*/
+      p[0].split("") >> 6,0
+      .reverse() >> 0,6
+    */
     function moneyFormatter(num) {
       let p = num.toFixed(2).split(".");
       return (
@@ -16,7 +20,7 @@ num.toFixed(2) >> return 600
           .reduce(function (acc, num, i) {
             return num === "-" ? acc : num + (i && !(i % 3) ? "," : "") + acc;
           }, "") +
-        "." +
+        "," +
         p[1]
       );
     }

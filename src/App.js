@@ -10,8 +10,9 @@ import "./App.css";
 
 function App() {
   return (
-    <ContextProvider>
+    <>
       <Header />
+    <ContextProvider>
       <div className="container">
         <Balance />
         <IncomeExpenses />
@@ -19,6 +20,7 @@ function App() {
         <AddTransaction />
       </div>
     </ContextProvider>
+  </>
   );
 }
 
