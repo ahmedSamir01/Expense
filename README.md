@@ -1,6 +1,6 @@
-Title: Expense App
+#Expense App
 
-Details: Wep application to calculate the epenses.
+Wep application to calculate the epenses.
 
 Used technologies:
 
@@ -8,7 +8,7 @@ Used technologies:
     React
     Context.api
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
