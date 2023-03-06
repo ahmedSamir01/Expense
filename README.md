@@ -2,7 +2,7 @@
 
 Wep application to calculate the epenses.
 
-Used technologies:
+## Used technologies:
 
     HTML
     React
