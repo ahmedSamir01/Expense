@@ -1,6 +1,6 @@
 # Expense App
 
-Wep application to calculate the epenses.
+Wep application to calculate the expenses.
 
 ## Used technologies:
 
